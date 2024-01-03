@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    overflow: hidden;
+}
+
+body {
+    scroll-behavior: smooth;
+    height: 200px;
+}
+
+.navbar {
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar:hover {
+    background-color: #fff;
+}
+
+
+
+.navbar h1 {
+    color: #fff;
+}
+.navbar:hover h1{
+    color: #000;
+}
+
+.navbar h1 span {
+    color: #f00;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 900;
+    padding-right: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar:hover ul li a {
+    color: #000;
+}
+
+.navbar ul li a:hover {
+    color: #964896;
+    text-decoration: underline overline;
+}
+
+.hero .hero-pic {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 760px;
+    background-position: 0 -50px;
+    position: absolute;
+    filter: brightness(50%);
+}
+
+.hero .hero-word {
+    position: relative;
+    padding-top: 13%;
+    text-align: justify;
+    padding-left: 6%;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.hero .hero-word h1 {
+    color: #f8f0ff;
+}
+
+.hero .hero-word span {
+    color: #f8f0ff;
+}
+
+.hero .hero-word p {
+    color: #fff;
+    line-height: 20px;
+    position: absolute;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: -35%;
+    text-align: justify;
+}
+
+.hero .hero-word button {
+    position: absolute;
+    padding: 20px;
+    margin-top: 6%;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff214f;
+    color: #fff;
+    width: 200px;
+}
+
+.hero .hero-word .hero-form {
+    width: 380px;
+    height: 320px;
+    background-color: #fff;
+    float: right;
+    margin-top: -10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.hero-form form h3 {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    /* margin-top: -5%; */
+}
+/* 
+.hero-form form input {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    width: 73%;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: #eaeaea;
+    overflow: visible;
+} */
+
+/* .hero-form  form button {
+    width: 296px;
+    margin-left: 42px;
+    margin-top: 70px;
+    padding: 14px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff214f;
+    color: #fff;
+} */
